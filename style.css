@@ -1,0 +1,72 @@
+body 
+{
+	font-family: Verdana;
+	margin: 0; 	/* Устанавливает величину отступа от каждого края элемента. Отступом является пространство от границы текущего элемента до внутренней границы его родительского элемента */
+	font-size: 80%;
+	font-weight: normal;
+	background: #FFF;
+}
+
+ul  /* маркированный список */
+ {
+	list-style: none;
+	margin: 0;
+	padding: 0; /* Устанавливает значение полей вокруг содержимого элемента. Полем называется расстояние от внутреннего края рамки элемента до воображаемого прямоугольника, ограничивающего его содержимое */
+}
+
+/*Меню */
+#menu1 
+{
+	width: 200px;
+	margin: 10px;
+	border-style: solid solid none solid;
+	border-color: #3D261D;
+	/* border-size: 1px; */
+	border-width: 1px;
+}
+
+#menu1 li a 
+{
+	/*height: 32px;
+	voice-family: "\"}\"";
+	voice-family: inherit;*/
+	height: 24px;
+	text-decoration: none;
+}
+
+#menu1 li a:link, #menu1 li a:visited 
+{
+    color: #E4D6CD;
+	display: block;
+	background: url(images/menu1.gif);
+	padding: 8px 0 0 10px;
+}
+
+#menu1 li a:hover, #menu1 li #current 
+{
+	color: #FFF;
+	background:  url(images/menu1.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+
+/* стиль ссылок на странице */
+#links a 
+{
+	color:#666666;
+	text-decoration:underline
+}
+#links a:active 
+{
+	color:#FF0000;
+	text-decoration:none
+}
+#links a:visited 
+{
+	color:#666666;
+	text-decoration:none
+}
+#links a:hover 
+{
+	color:#339900;
+	text-decoration: underline
+}
