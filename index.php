@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C?//DTD HTML 4.01 TRANSITIONAL//EN">
-
+<! тест >
 <html>
 	<head>
 		<title>My homepage</title>
