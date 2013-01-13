@@ -1,25 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C?//DTD HTML 4.01 TRANSITIONAL//EN">
 <html>
 	<head>
-		<title>About me <- My homepage</title>
+		<title>Main page <- My homepage</title>
 		
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<meta http-EQUIV="Content-Type" Content="text/html; charset=windows-1251">
 		<link href="style.css" TYPE="text/css" rel="stylesheet">
-		
-		<script language = "JavaScript">
-			var bigsize = "300";   // размер большой картинки
-			var smallsize = "150"; // размер маленькой картинки
-			function ChangeImageSize(im) 
-			{
-				if (im.height == bigsize) 
-					im.height = smallsize;
-				else 
-					im.height = bigsize;
-			}
-		</script>
-		
 	</head>
 
 	<body>
