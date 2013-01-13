@@ -33,11 +33,11 @@
 				<td width=25% height=100% bgcolor="#f5f5dc">
 					<div id="menu1">
                         <ul>
-							<li><a href="index.php"><b>Main page</b></a></li>
+							<li><a href="index.php">Main page</a></li>
 							<li><a href="about.php">About me</a></li>
 							<li><a href="interests.php">My interests</a></li>
 							<li><a href="photos.php">Photos</a></li>
-							<li><a href="test.php">->Test<-</a></li>
+							<li><a href="test.php"><b>->Test<-</b></a></li>
                         </ul>
                 </div> </td>
 			
