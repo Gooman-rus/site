@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C?//DTD HTML 4.01 TRANSITIONAL//EN">
-<!-- teffst -->
+<!-- tefst -->
 <html>
 	<head>
 		<title>My homepage</title>
@@ -16,9 +16,9 @@
 				<td colspan=2 width=100% height=153 bgcolor="#806b2a">
 					<table width=100% CELLPADDING=0 CELLSPACING=0>
 						<tr>
-						<td><img src="images/zombie.png" alt="Зомби"></td>
-						<td><img src="images/text.png" alt="Текст"></td>
-						<td align=right><img src="images/author.png" alt="Автор"></td>
+						<td><img src="images/zombie.png" alt="пїЅпїЅпїЅпїЅпїЅ"></td>
+						<td><img src="images/text.png" alt="пїЅпїЅпїЅпїЅпїЅ"></td>
+						<td align=right><img src="images/author.png" alt="пїЅпїЅпїЅпїЅпїЅ"></td>
 						</TR>
 					</table>
 				
@@ -41,7 +41,7 @@
                         </ul>
                 </div> </td>
 			
-			<td width=100% height=100% bgcolor="#f5f5dc">Привет. Это моя домашняя страница. Меня зовут Увин Юрий Викторович. Я из группы И-31.</td>
+			<td width=100% height=100% bgcolor="#f5f5dc">пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ-31.</td>
 			</tr>
 			
 			<tr>
