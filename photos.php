@@ -50,6 +50,7 @@
 							<li><a href="about.php">About me</a></li>
 							<li><a href="interests.php">My interests</a></li>
 							<li><a href="photos.php"><b>->Photos<-</b></a></li>
+							<li><a href="test.php">Test</a></li>
                         </ul>
                 </div> </td>
 				<td width=100% height=100% bgcolor="#f5f5dc">

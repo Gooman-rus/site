@@ -39,6 +39,7 @@
 							<li><a href="interests.php">My interests</a></li>
 							<li><a href="photos.php">Photos</a></li>
 							<li><a href="studies.php"><b>->My studies<-</b></a></li>
+							<li><a href="test.php">Test</a></li>
                         </ul>
                 </div> </td>
 				<td width=75% height=100% bgcolor="#f5f5dc">I completed 58 school at 2010. Today I study at Sevastopol National Technical University on Information System's department on the third course.  </td>
