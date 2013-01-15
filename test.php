@@ -80,7 +80,45 @@
 							<option value="4">Android</option> 
 							<option value="5">iOS</option> 
 						</select>
+					  <br><br>
 					  
+					  <?
+						//Соединение с базой данных
+						$link = mysql_connect ("localhost", "root", "") or die ("Could not connect");
+						//Выбор базы данных 
+						$base = mysql_select_db ("notebook");
+						mysql_query("SET NAMES cp1251");
+
+						//Запрос к базе данных
+						//$query = "select * from nt where city = 'Севастополь'";	
+						$query = "select * from main";
+					?>
+					<CENTER>It works!
+						<TABLE width=500 border=1>
+							<TR>
+								<TD><center><b>Ф.И.О.</b></center></TD>
+								<TD><center><b>Пол</b></center></TD>
+								<TD><center><b>Город</b></center></TD>
+								<TD><center><b>Дом</b></center></TD>
+								<TD><center><b>Телефон</b></center></TD>
+							</TR>
+							<?
+								$res = mysql_query ($query) or die ("Не могу выбрать абонентов.<br> Ошибка в запросе: ".$query);
+								while (list($id,$fio,$gender,$town,$house,$phone) = mysql_fetch_array($res))
+								{
+							?>	
+							<TR>
+								<TD> <?=$fio?>  </TD>
+								<TD> <center><?=$gender?> </center> </TD>
+								<TD> <?=$town?>  </TD>
+								<TD> <center><?=$house?></center>  </TD>
+								<TD> <center><?=$phone?></center> </TD>
+							</TR>
+							<?
+								}
+							?>	
+						</TABLE>
+					</CENTER>
 					
 					</form>
 				
